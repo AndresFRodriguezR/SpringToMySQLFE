@@ -1,0 +1,23 @@
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://192.168.1.10;databaseName=Spring
+    username: sa
+    password: s4c4ym4n.
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    test-on-borrow: true
+    test-while-idle: true
+    validation-query: select 1;
+    maxActive: 1
+
+mysql:
+  datasource:
+    url: jdbc:mysql://localhost/facturaelectronica
+    username: gestionSunat
+    password: certificado123
+    driverClassName: com.mysql.jdbc.Driver
+    test-on-borrow: true
+    test-while-idle: true
+    validation-query: select 1;
+    maxActive: 1
+    
