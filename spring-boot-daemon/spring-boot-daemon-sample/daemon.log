@@ -1,0 +1,390 @@
+00:00:20.713 [INFO ] [               pool-4-thread-1] [              GeneradorJobImpl:29 ] - Extraer boleta
+00:00:40.607 [INFO ] [               pool-4-thread-1] [       XmlBeanDefinitionReader:317] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+00:00:40.785 [INFO ] [               pool-4-thread-1] [          SQLErrorCodesFactory:126] - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+00:01:04.712 [INFO ] [                          main] [             SampleApplication:48 ] - Starting SampleApplication on CS005 with PID 8336 (D:\libre\SpringToMySQLFE\spring-boot-daemon\spring-boot-daemon-sample\target\classes started by administrador in D:\libre\SpringToMySQLFE\spring-boot-daemon\spring-boot-daemon-sample)
+00:01:04.716 [INFO ] [                          main] [             SampleApplication:666] - No active profile set, falling back to default profiles: default
+00:01:04.752 [INFO ] [                          main] [gEmbeddedWebApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:01:04 COT 2016]; root of context hierarchy
+00:01:05.014 [INFO ] [            background-preinit] [                       Version:30 ] - HV000001: Hibernate Validator 5.2.4.Final
+00:01:06.028 [INFO ] [                          main] [egate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8550de4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:01:06.373 [INFO ] [                          main] [TomcatEmbeddedServletContainer:81 ] - Tomcat initialized with port(s): 8080 (http)
+00:01:06.383 [INFO ] [                          main] [               StandardService:180] - Starting service Tomcat
+00:01:06.384 [INFO ] [                          main] [                StandardEngine:180] - Starting Servlet Engine: Apache Tomcat/8.0.33
+00:01:06.480 [INFO ] [         localhost-startStop-1] [                           [/]:180] - Initializing Spring embedded WebApplicationContext
+00:01:06.480 [INFO ] [         localhost-startStop-1] [                 ContextLoader:272] - Root WebApplicationContext: initialization completed in 1728 ms
+00:01:06.875 [INFO ] [         localhost-startStop-1] [       ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+00:01:06.879 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'metricFilter' to: [/*]
+00:01:06.880 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+00:01:06.880 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+00:01:06.880 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+00:01:06.880 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+00:01:06.880 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+00:01:06.881 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+00:01:07.132 [INFO ] [                          main] [tainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'mysql'
+00:01:07.143 [INFO ] [                          main] [                     LogHelper:46 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: mysql
+	...]
+00:01:07.212 [INFO ] [                          main] [                       Version:54 ] - HHH000412: Hibernate Core {4.3.11.Final}
+00:01:07.214 [INFO ] [                          main] [                   Environment:239] - HHH000206: hibernate.properties not found
+00:01:07.215 [INFO ] [                          main] [                   Environment:346] - HHH000021: Bytecode provider name : javassist
+00:01:07.353 [INFO ] [                          main] [                       Version:66 ] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+00:01:07.387 [WARN ] [                          main] [                ConnectionPool:180] - initialSize is larger than maxActive, setting initialSize to: 1
+00:01:07.388 [WARN ] [                          main] [                ConnectionPool:180] - minIdle is larger than maxActive, setting minIdle to: 1
+00:01:07.388 [WARN ] [                          main] [                ConnectionPool:180] - maxIdle is larger than maxActive, setting maxIdle to: 1
+00:01:07.765 [INFO ] [                          main] [                       Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:01:07.809 [INFO ] [                          main] [     ASTQueryTranslatorFactory:47 ] - HHH000397: Using ASTQueryTranslatorFactory
+00:01:07.941 [INFO ] [                          main] [tainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'sqlserver'
+00:01:07.941 [INFO ] [                          main] [                     LogHelper:46 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserver
+	...]
+00:01:07.948 [WARN ] [                          main] [                ConnectionPool:180] - initialSize is larger than maxActive, setting initialSize to: 1
+00:01:07.948 [WARN ] [                          main] [                ConnectionPool:180] - minIdle is larger than maxActive, setting minIdle to: 1
+00:01:07.948 [WARN ] [                          main] [                ConnectionPool:180] - maxIdle is larger than maxActive, setting maxIdle to: 1
+00:01:08.149 [INFO ] [                          main] [                       Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2005Dialect
+00:01:08.156 [INFO ] [                          main] [     ASTQueryTranslatorFactory:47 ] - HHH000397: Using ASTQueryTranslatorFactory
+00:01:08.498 [INFO ] [                          main] [  RequestMappingHandlerAdapter:539] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:01:04 COT 2016]; root of context hierarchy
+00:01:08.592 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/]}" onto public java.lang.String pe.joedayz.etl.SampleApplication$HomeController.home()
+00:01:08.596 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+00:01:08.597 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+00:01:08.642 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:01:08.642 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:01:08.699 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:01:09.119 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.120 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.121 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+00:01:09.122 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.122 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.125 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.126 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.127 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+00:01:09.128 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+00:01:09.128 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.129 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.129 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:01:09.390 [INFO ] [                          main] [       AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+00:01:09.396 [INFO ] [                          main] [         EndpointMBeanExporter:431] - Registering beans for JMX exposure on startup
+00:01:09.400 [INFO ] [                          main] [     DefaultLifecycleProcessor:341] - Starting beans in phase 0
+00:01:09.408 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+00:01:09.451 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+00:01:09.469 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+00:01:09.474 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+00:01:09.478 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+00:01:09.482 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+00:01:09.486 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+00:01:09.489 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+00:01:09.497 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+00:01:09.500 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+00:01:09.549 [INFO ] [                          main] [             Http11NioProtocol:180] - Initializing ProtocolHandler ["http-nio-8080"]
+00:01:09.558 [INFO ] [                          main] [             Http11NioProtocol:180] - Starting ProtocolHandler ["http-nio-8080"]
+00:01:09.571 [INFO ] [                          main] [               NioSelectorPool:180] - Using a shared selector for servlet write/read
+00:01:09.592 [INFO ] [                          main] [TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+00:01:09.598 [INFO ] [                          main] [             SampleApplication:57 ] - Started SampleApplication in 5.158 seconds (JVM running for 5.747)
+00:01:39.522 [INFO ] [               pool-4-thread-1] [              GeneradorJobImpl:29 ] - Extraer boleta
+00:01:54.494 [INFO ] [               pool-4-thread-1] [       XmlBeanDefinitionReader:317] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+00:01:54.672 [INFO ] [               pool-4-thread-1] [          SQLErrorCodesFactory:126] - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+00:01:58.472 [ERROR] [               pool-4-thread-1] [ TaskUtils$LoggingErrorHandler:95 ] - Unexpected error occurred in scheduled task.
+org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT compania_socio as clie_numero, tipodocumento as docu_tipodocumento, numerodocumento as docu_numero 
+ FROM efactura 
+ WHERE  nuevo = 'N' 
+ order by FechaDocumento ]; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: El nombre de columna 'compania_socio' no es válido.
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:645)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:680)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:707)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:757)
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:192)
+	at org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.query(NamedParameterJdbcTemplate.java:199)
+	at pe.joedayz.etl.extractor.DElectronicoExtractorImpl.pendienteDocElectronico(DElectronicoExtractorImpl.java:87)
+	at pe.joedayz.etl.extractor.DElectronicoExtractorImpl$$FastClassBySpringCGLIB$$f97ded31.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at pe.joedayz.etl.extractor.DElectronicoExtractorImpl$$EnhancerBySpringCGLIB$$43597f79.pendienteDocElectronico(<generated>)
+	at pe.joedayz.etl.ws.BolSpringImpl.extraerBoleta(BolSpringImpl.java:22)
+	at pe.joedayz.etl.service.impl.GeneradorJobImpl.scheduleGeneratorJobs(GeneradorJobImpl.java:30)
+	at pe.joedayz.etl.service.impl.GeneradorJobImpl$$FastClassBySpringCGLIB$$59de8fd5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at pe.joedayz.etl.service.impl.GeneradorJobImpl$$EnhancerBySpringCGLIB$$35e7131.scheduleGeneratorJobs(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: El nombre de columna 'compania_socio' no es válido.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:285)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:688)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:629)
+	... 39 common frames omitted
+00:01:58.473 [INFO ] [               pool-4-thread-1] [              GeneradorJobImpl:29 ] - Extraer boleta
+00:02:13.823 [INFO ] [ TCP Connection(7)-192.168.1.8] [gistrar$SpringApplicationAdmin:122] - Application shutdown requested.
+00:02:13.824 [INFO ] [ TCP Connection(7)-192.168.1.8] [gEmbeddedWebApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:01:04 COT 2016]; root of context hierarchy
+00:02:13.825 [INFO ] [ TCP Connection(7)-192.168.1.8] [     DefaultLifecycleProcessor:356] - Stopping beans in phase 0
+00:02:13.829 [INFO ] [ TCP Connection(7)-192.168.1.8] [         EndpointMBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+00:02:13.829 [INFO ] [ TCP Connection(7)-192.168.1.8] [         EndpointMBeanExporter:241] - Unregistering JMX-exposed beans
+00:02:13.830 [INFO ] [ TCP Connection(7)-192.168.1.8] [       AnnotationMBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+00:02:13.832 [INFO ] [ TCP Connection(7)-192.168.1.8] [tainerEntityManagerFactoryBean:481] - Closing JPA EntityManagerFactory for persistence unit 'sqlserver'
+00:02:13.832 [INFO ] [ TCP Connection(7)-192.168.1.8] [tainerEntityManagerFactoryBean:481] - Closing JPA EntityManagerFactory for persistence unit 'mysql'
+00:02:55.538 [INFO ] [                          main] [             SampleApplication:48 ] - Starting SampleApplication on CS005 with PID 8772 (D:\libre\SpringToMySQLFE\spring-boot-daemon\spring-boot-daemon-sample\target\classes started by administrador in D:\libre\SpringToMySQLFE\spring-boot-daemon\spring-boot-daemon-sample)
+00:02:55.542 [INFO ] [                          main] [             SampleApplication:666] - No active profile set, falling back to default profiles: default
+00:02:55.578 [INFO ] [                          main] [gEmbeddedWebApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:02:55 COT 2016]; root of context hierarchy
+00:02:55.832 [INFO ] [            background-preinit] [                       Version:30 ] - HV000001: Hibernate Validator 5.2.4.Final
+00:02:56.870 [INFO ] [                          main] [egate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$571d75cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:02:57.219 [INFO ] [                          main] [TomcatEmbeddedServletContainer:81 ] - Tomcat initialized with port(s): 8080 (http)
+00:02:57.229 [INFO ] [                          main] [               StandardService:180] - Starting service Tomcat
+00:02:57.230 [INFO ] [                          main] [                StandardEngine:180] - Starting Servlet Engine: Apache Tomcat/8.0.33
+00:02:57.326 [INFO ] [         localhost-startStop-1] [                           [/]:180] - Initializing Spring embedded WebApplicationContext
+00:02:57.326 [INFO ] [         localhost-startStop-1] [                 ContextLoader:272] - Root WebApplicationContext: initialization completed in 1748 ms
+00:02:57.700 [INFO ] [         localhost-startStop-1] [       ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+00:02:57.704 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'metricFilter' to: [/*]
+00:02:57.705 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+00:02:57.705 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+00:02:57.705 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+00:02:57.705 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+00:02:57.705 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+00:02:57.706 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+00:02:57.945 [INFO ] [                          main] [tainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'mysql'
+00:02:57.956 [INFO ] [                          main] [                     LogHelper:46 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: mysql
+	...]
+00:02:58.026 [INFO ] [                          main] [                       Version:54 ] - HHH000412: Hibernate Core {4.3.11.Final}
+00:02:58.027 [INFO ] [                          main] [                   Environment:239] - HHH000206: hibernate.properties not found
+00:02:58.029 [INFO ] [                          main] [                   Environment:346] - HHH000021: Bytecode provider name : javassist
+00:02:58.164 [INFO ] [                          main] [                       Version:66 ] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+00:02:58.198 [WARN ] [                          main] [                ConnectionPool:180] - initialSize is larger than maxActive, setting initialSize to: 1
+00:02:58.198 [WARN ] [                          main] [                ConnectionPool:180] - minIdle is larger than maxActive, setting minIdle to: 1
+00:02:58.198 [WARN ] [                          main] [                ConnectionPool:180] - maxIdle is larger than maxActive, setting maxIdle to: 1
+00:02:58.567 [INFO ] [                          main] [                       Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:02:58.611 [INFO ] [                          main] [     ASTQueryTranslatorFactory:47 ] - HHH000397: Using ASTQueryTranslatorFactory
+00:02:58.743 [INFO ] [                          main] [tainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'sqlserver'
+00:02:58.744 [INFO ] [                          main] [                     LogHelper:46 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserver
+	...]
+00:02:58.751 [WARN ] [                          main] [                ConnectionPool:180] - initialSize is larger than maxActive, setting initialSize to: 1
+00:02:58.751 [WARN ] [                          main] [                ConnectionPool:180] - minIdle is larger than maxActive, setting minIdle to: 1
+00:02:58.752 [WARN ] [                          main] [                ConnectionPool:180] - maxIdle is larger than maxActive, setting maxIdle to: 1
+00:02:58.956 [INFO ] [                          main] [                       Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2005Dialect
+00:02:58.964 [INFO ] [                          main] [     ASTQueryTranslatorFactory:47 ] - HHH000397: Using ASTQueryTranslatorFactory
+00:02:59.352 [INFO ] [                          main] [  RequestMappingHandlerAdapter:539] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:02:55 COT 2016]; root of context hierarchy
+00:02:59.437 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/]}" onto public java.lang.String pe.joedayz.etl.SampleApplication$HomeController.home()
+00:02:59.441 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+00:02:59.441 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+00:02:59.480 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:02:59.480 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:02:59.536 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:02:59.976 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+00:02:59.976 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:02:59.977 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:02:59.977 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:02:59.978 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+00:02:59.979 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:02:59.982 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:02:59.982 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+00:02:59.983 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:02:59.983 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:02:59.984 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:02:59.985 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:03:00.198 [INFO ] [                          main] [       AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+00:03:00.203 [INFO ] [                          main] [         EndpointMBeanExporter:431] - Registering beans for JMX exposure on startup
+00:03:00.207 [INFO ] [                          main] [     DefaultLifecycleProcessor:341] - Starting beans in phase 0
+00:03:00.209 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+00:03:00.235 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+00:03:00.241 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+00:03:00.245 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+00:03:00.248 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+00:03:00.251 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+00:03:00.254 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+00:03:00.256 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+00:03:00.268 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+00:03:00.272 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+00:03:00.324 [INFO ] [                          main] [             Http11NioProtocol:180] - Initializing ProtocolHandler ["http-nio-8080"]
+00:03:00.342 [INFO ] [                          main] [             Http11NioProtocol:180] - Starting ProtocolHandler ["http-nio-8080"]
+00:03:00.356 [INFO ] [                          main] [               NioSelectorPool:180] - Using a shared selector for servlet write/read
+00:03:00.376 [INFO ] [                          main] [TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+00:03:00.382 [INFO ] [                          main] [             SampleApplication:57 ] - Started SampleApplication in 5.119 seconds (JVM running for 5.71)
+00:03:30.293 [INFO ] [               pool-4-thread-1] [              GeneradorJobImpl:29 ] - Extraer boleta
+00:04:58.657 [INFO ] [                          main] [             SampleApplication:48 ] - Starting SampleApplication on CS005 with PID 8412 (D:\libre\SpringToMySQLFE\spring-boot-daemon\spring-boot-daemon-sample\target\classes started by administrador in D:\libre\SpringToMySQLFE\spring-boot-daemon\spring-boot-daemon-sample)
+00:04:58.661 [INFO ] [                          main] [             SampleApplication:666] - No active profile set, falling back to default profiles: default
+00:04:58.696 [INFO ] [                          main] [gEmbeddedWebApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:04:58 COT 2016]; root of context hierarchy
+00:04:58.955 [INFO ] [            background-preinit] [                       Version:30 ] - HV000001: Hibernate Validator 5.2.4.Final
+00:04:59.983 [INFO ] [                          main] [egate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a318e92e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:05:00.338 [INFO ] [                          main] [TomcatEmbeddedServletContainer:81 ] - Tomcat initialized with port(s): 8080 (http)
+00:05:00.348 [INFO ] [                          main] [               StandardService:180] - Starting service Tomcat
+00:05:00.349 [INFO ] [                          main] [                StandardEngine:180] - Starting Servlet Engine: Apache Tomcat/8.0.33
+00:05:00.455 [INFO ] [         localhost-startStop-1] [                           [/]:180] - Initializing Spring embedded WebApplicationContext
+00:05:00.455 [INFO ] [         localhost-startStop-1] [                 ContextLoader:272] - Root WebApplicationContext: initialization completed in 1759 ms
+00:05:00.826 [INFO ] [         localhost-startStop-1] [       ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+00:05:00.830 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'metricFilter' to: [/*]
+00:05:00.831 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+00:05:00.831 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+00:05:00.831 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+00:05:00.831 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+00:05:00.832 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+00:05:00.832 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+00:05:01.100 [INFO ] [                          main] [tainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'mysql'
+00:05:01.112 [INFO ] [                          main] [                     LogHelper:46 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: mysql
+	...]
+00:05:01.182 [INFO ] [                          main] [                       Version:54 ] - HHH000412: Hibernate Core {4.3.11.Final}
+00:05:01.184 [INFO ] [                          main] [                   Environment:239] - HHH000206: hibernate.properties not found
+00:05:01.185 [INFO ] [                          main] [                   Environment:346] - HHH000021: Bytecode provider name : javassist
+00:05:01.323 [INFO ] [                          main] [                       Version:66 ] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+00:05:01.356 [WARN ] [                          main] [                ConnectionPool:180] - initialSize is larger than maxActive, setting initialSize to: 1
+00:05:01.357 [WARN ] [                          main] [                ConnectionPool:180] - minIdle is larger than maxActive, setting minIdle to: 1
+00:05:01.357 [WARN ] [                          main] [                ConnectionPool:180] - maxIdle is larger than maxActive, setting maxIdle to: 1
+00:05:01.728 [INFO ] [                          main] [                       Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:05:01.772 [INFO ] [                          main] [     ASTQueryTranslatorFactory:47 ] - HHH000397: Using ASTQueryTranslatorFactory
+00:05:01.904 [INFO ] [                          main] [tainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'sqlserver'
+00:05:01.905 [INFO ] [                          main] [                     LogHelper:46 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserver
+	...]
+00:05:01.912 [WARN ] [                          main] [                ConnectionPool:180] - initialSize is larger than maxActive, setting initialSize to: 1
+00:05:01.913 [WARN ] [                          main] [                ConnectionPool:180] - minIdle is larger than maxActive, setting minIdle to: 1
+00:05:01.913 [WARN ] [                          main] [                ConnectionPool:180] - maxIdle is larger than maxActive, setting maxIdle to: 1
+00:05:02.117 [INFO ] [                          main] [                       Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2005Dialect
+00:05:02.125 [INFO ] [                          main] [     ASTQueryTranslatorFactory:47 ] - HHH000397: Using ASTQueryTranslatorFactory
+00:05:02.450 [INFO ] [                          main] [  RequestMappingHandlerAdapter:539] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:04:58 COT 2016]; root of context hierarchy
+00:05:02.531 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/]}" onto public java.lang.String pe.joedayz.etl.SampleApplication$HomeController.home()
+00:05:02.535 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+00:05:02.535 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+00:05:02.585 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:05:02.586 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:05:02.633 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:05:03.041 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+00:05:03.042 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+00:05:03.042 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.043 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.043 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.044 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.046 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+00:05:03.046 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.046 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.047 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.047 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.047 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:05:03.260 [INFO ] [                          main] [       AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+00:05:03.264 [INFO ] [                          main] [         EndpointMBeanExporter:431] - Registering beans for JMX exposure on startup
+00:05:03.268 [INFO ] [                          main] [     DefaultLifecycleProcessor:341] - Starting beans in phase 0
+00:05:03.270 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+00:05:03.298 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+00:05:03.304 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+00:05:03.308 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+00:05:03.312 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+00:05:03.316 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+00:05:03.320 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+00:05:03.324 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+00:05:03.331 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+00:05:03.335 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+00:05:03.381 [INFO ] [                          main] [             Http11NioProtocol:180] - Initializing ProtocolHandler ["http-nio-8080"]
+00:05:03.399 [INFO ] [                          main] [             Http11NioProtocol:180] - Starting ProtocolHandler ["http-nio-8080"]
+00:05:03.410 [INFO ] [                          main] [               NioSelectorPool:180] - Using a shared selector for servlet write/read
+00:05:03.440 [INFO ] [                          main] [TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+00:05:03.456 [INFO ] [                          main] [             SampleApplication:57 ] - Started SampleApplication in 5.073 seconds (JVM running for 5.767)
+00:05:33.355 [INFO ] [               pool-4-thread-1] [              GeneradorJobImpl:29 ] - Extraer boleta
+00:06:10.634 [INFO ] [               pool-4-thread-1] [     DElectronicoExtractorImpl:92 ] - Found documents [DocumentoBean(docu_codigo=null, empr_razonsocial=null, empr_ubigeo=null, empr_nombrecomercial=null, empr_direccion=null, empr_provincia=null, empr_departamento=null, empr_distrito=null, empr_pais=null, empr_nroruc=null, empr_tipodoc=null, clie_numero=00000200, clie_tipodoc=null, clie_nombre=null, docu_fecha=null, docu_tipodocumento=BV, docu_numero=001-0003645   , docu_moneda=null, docu_gravada=null, docu_inafecta=null, docu_exonerada=null, docu_gratuita=null, docu_descuento=null, docu_subtotal=null, docu_total=null, docu_igv=null, tasa_igv=null, docu_isc=null, tasa_isc=null, docu_otrostributos=null, docu_otroscargos=null, docu_percepcion=null, docu_enviaws=null, iddetalle=null, item_moneda=null, item_orden=null, item_unidad=null, item_cantidad=null, item_codproducto=null, item_descripcion=null, item_afectacion=null, item_pventa=null, item_ti_subtotal=null, item_ti_igv=null, rete_rela_tipo_docu=null, rete_rela_nume_docu=null, rete_rela_fech_docu=null, rete_rela_tipo_moneda=null, rete_rela_total_original=null, rete_rela_fecha_pago=null, rete_rela_numero_pago=null, rete_rela_importe_pagado_original=null, rete_rela_tipo_moneda_pago=null, rete_importe_retenido_nacional=null, rete_importe_neto_nacional=null, rete_tipo_moneda_referencia=null, rete_tipo_moneda_objetivo=null, rete_tipo_moneda_tipo_cambio=null, rete_tipo_moneda_fecha=null, item_otros=null, resu_fecha=null, resu_fila=null, resu_tipodoc=null, resu_serie=null, resu_inicio=null, resu_final=null, resu_gravada=null, resu_exonerada=null, resu_inafecta=null, resu_otcargos=null, resu_isc=null, resu_igv=null, resu_ottributos=null, resu_total=null, resu_identificador=null, resu_fechagenera=null, resu_fec=null, resu_numero=null, resu_motivo=null, tasa_otrostributos=null, nota_motivo=null, nota_sustento=null, nota_tipodoc=null, nota_documento=null, cdesu_nroticket=null, rete_regi=null, rete_tasa=null, rete_total_elec=null, rete_total_rete=null, docu_forma_pago=null, docu_observacion=null, clie_direccion=null, docu_vendedor=null, docu_pedido=null, docu_guia_remision=null, clie_orden_compra=null, otrosDetalles=null)]
+00:07:04.441 [INFO ] [                          main] [             SampleApplication:48 ] - Starting SampleApplication on CS005 with PID 8872 (D:\libre\SpringToMySQLFE\spring-boot-daemon\spring-boot-daemon-sample\target\classes started by administrador in D:\libre\SpringToMySQLFE\spring-boot-daemon\spring-boot-daemon-sample)
+00:07:04.445 [INFO ] [                          main] [             SampleApplication:666] - No active profile set, falling back to default profiles: default
+00:07:04.481 [INFO ] [                          main] [gEmbeddedWebApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:07:04 COT 2016]; root of context hierarchy
+00:07:04.764 [INFO ] [            background-preinit] [                       Version:30 ] - HV000001: Hibernate Validator 5.2.4.Final
+00:07:05.774 [INFO ] [                          main] [egate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$629346fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+00:07:06.122 [INFO ] [                          main] [TomcatEmbeddedServletContainer:81 ] - Tomcat initialized with port(s): 8080 (http)
+00:07:06.132 [INFO ] [                          main] [               StandardService:180] - Starting service Tomcat
+00:07:06.133 [INFO ] [                          main] [                StandardEngine:180] - Starting Servlet Engine: Apache Tomcat/8.0.33
+00:07:06.230 [INFO ] [         localhost-startStop-1] [                           [/]:180] - Initializing Spring embedded WebApplicationContext
+00:07:06.230 [INFO ] [         localhost-startStop-1] [                 ContextLoader:272] - Root WebApplicationContext: initialization completed in 1749 ms
+00:07:06.614 [INFO ] [         localhost-startStop-1] [       ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+00:07:06.618 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'metricFilter' to: [/*]
+00:07:06.619 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+00:07:06.619 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+00:07:06.619 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+00:07:06.619 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+00:07:06.619 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+00:07:06.619 [INFO ] [         localhost-startStop-1] [        FilterRegistrationBean:258] - Mapping filter: 'applicationContextIdFilter' to: [/*]
+00:07:06.859 [INFO ] [                          main] [tainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'mysql'
+00:07:06.870 [INFO ] [                          main] [                     LogHelper:46 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: mysql
+	...]
+00:07:06.940 [INFO ] [                          main] [                       Version:54 ] - HHH000412: Hibernate Core {4.3.11.Final}
+00:07:06.942 [INFO ] [                          main] [                   Environment:239] - HHH000206: hibernate.properties not found
+00:07:06.943 [INFO ] [                          main] [                   Environment:346] - HHH000021: Bytecode provider name : javassist
+00:07:07.081 [INFO ] [                          main] [                       Version:66 ] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+00:07:07.114 [WARN ] [                          main] [                ConnectionPool:180] - initialSize is larger than maxActive, setting initialSize to: 1
+00:07:07.115 [WARN ] [                          main] [                ConnectionPool:180] - minIdle is larger than maxActive, setting minIdle to: 1
+00:07:07.115 [WARN ] [                          main] [                ConnectionPool:180] - maxIdle is larger than maxActive, setting maxIdle to: 1
+00:07:07.487 [INFO ] [                          main] [                       Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:07:07.532 [INFO ] [                          main] [     ASTQueryTranslatorFactory:47 ] - HHH000397: Using ASTQueryTranslatorFactory
+00:07:07.662 [INFO ] [                          main] [tainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'sqlserver'
+00:07:07.663 [INFO ] [                          main] [                     LogHelper:46 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserver
+	...]
+00:07:07.669 [WARN ] [                          main] [                ConnectionPool:180] - initialSize is larger than maxActive, setting initialSize to: 1
+00:07:07.669 [WARN ] [                          main] [                ConnectionPool:180] - minIdle is larger than maxActive, setting minIdle to: 1
+00:07:07.669 [WARN ] [                          main] [                ConnectionPool:180] - maxIdle is larger than maxActive, setting maxIdle to: 1
+00:07:07.876 [INFO ] [                          main] [                       Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2005Dialect
+00:07:07.884 [INFO ] [                          main] [     ASTQueryTranslatorFactory:47 ] - HHH000397: Using ASTQueryTranslatorFactory
+00:07:08.227 [INFO ] [                          main] [  RequestMappingHandlerAdapter:539] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74589991: startup date [Wed Oct 05 00:07:04 COT 2016]; root of context hierarchy
+00:07:08.307 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/]}" onto public java.lang.String pe.joedayz.etl.SampleApplication$HomeController.home()
+00:07:08.310 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+00:07:08.310 [INFO ] [                          main] [  RequestMappingHandlerMapping:534] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+00:07:08.348 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:07:08.349 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:07:08.400 [INFO ] [                          main] [       SimpleUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+00:07:08.843 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+00:07:08.844 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:08.844 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:08.845 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:08.845 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:08.847 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+00:07:08.848 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:08.848 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:08.849 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+00:07:08.849 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:08.850 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:08.850 [INFO ] [                          main] [        EndpointHandlerMapping:534] - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+00:07:09.088 [INFO ] [                          main] [       AnnotationMBeanExporter:431] - Registering beans for JMX exposure on startup
+00:07:09.095 [INFO ] [                          main] [         EndpointMBeanExporter:431] - Registering beans for JMX exposure on startup
+00:07:09.101 [INFO ] [                          main] [     DefaultLifecycleProcessor:341] - Starting beans in phase 0
+00:07:09.104 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+00:07:09.137 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+00:07:09.144 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+00:07:09.148 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+00:07:09.155 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+00:07:09.159 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+00:07:09.163 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+00:07:09.166 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+00:07:09.180 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+00:07:09.183 [INFO ] [                          main] [         EndpointMBeanExporter:674] - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+00:07:09.247 [INFO ] [                          main] [             Http11NioProtocol:180] - Initializing ProtocolHandler ["http-nio-8080"]
+00:07:09.264 [INFO ] [                          main] [             Http11NioProtocol:180] - Starting ProtocolHandler ["http-nio-8080"]
+00:07:09.276 [INFO ] [                          main] [               NioSelectorPool:180] - Using a shared selector for servlet write/read
+00:07:09.294 [INFO ] [                          main] [TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+00:07:09.301 [INFO ] [                          main] [             SampleApplication:57 ] - Started SampleApplication in 5.14 seconds (JVM running for 5.731)
+00:07:39.230 [INFO ] [               pool-4-thread-1] [              GeneradorJobImpl:29 ] - Extraer boleta
+00:08:02.918 [INFO ] [               pool-4-thread-1] [     DElectronicoExtractorImpl:92 ] - Found documents [DocumentoBean(docu_codigo=null, empr_razonsocial=null, empr_ubigeo=null, empr_nombrecomercial=null, empr_direccion=null, empr_provincia=null, empr_departamento=null, empr_distrito=null, empr_pais=null, empr_nroruc=null, empr_tipodoc=null, clie_numero=00000200, clie_tipodoc=null, clie_nombre=null, docu_fecha=null, docu_tipodocumento=BV, docu_numero=001-0003645   , docu_moneda=null, docu_gravada=null, docu_inafecta=null, docu_exonerada=null, docu_gratuita=null, docu_descuento=null, docu_subtotal=null, docu_total=null, docu_igv=null, tasa_igv=null, docu_isc=null, tasa_isc=null, docu_otrostributos=null, docu_otroscargos=null, docu_percepcion=null, docu_enviaws=null, iddetalle=null, item_moneda=null, item_orden=null, item_unidad=null, item_cantidad=null, item_codproducto=null, item_descripcion=null, item_afectacion=null, item_pventa=null, item_ti_subtotal=null, item_ti_igv=null, rete_rela_tipo_docu=null, rete_rela_nume_docu=null, rete_rela_fech_docu=null, rete_rela_tipo_moneda=null, rete_rela_total_original=null, rete_rela_fecha_pago=null, rete_rela_numero_pago=null, rete_rela_importe_pagado_original=null, rete_rela_tipo_moneda_pago=null, rete_importe_retenido_nacional=null, rete_importe_neto_nacional=null, rete_tipo_moneda_referencia=null, rete_tipo_moneda_objetivo=null, rete_tipo_moneda_tipo_cambio=null, rete_tipo_moneda_fecha=null, item_otros=null, resu_fecha=null, resu_fila=null, resu_tipodoc=null, resu_serie=null, resu_inicio=null, resu_final=null, resu_gravada=null, resu_exonerada=null, resu_inafecta=null, resu_otcargos=null, resu_isc=null, resu_igv=null, resu_ottributos=null, resu_total=null, resu_identificador=null, resu_fechagenera=null, resu_fec=null, resu_numero=null, resu_motivo=null, tasa_otrostributos=null, nota_motivo=null, nota_sustento=null, nota_tipodoc=null, nota_documento=null, cdesu_nroticket=null, rete_regi=null, rete_tasa=null, rete_total_elec=null, rete_total_rete=null, docu_forma_pago=null, docu_observacion=null, clie_direccion=null, docu_vendedor=null, docu_pedido=null, docu_guia_remision=null, clie_orden_compra=null, otrosDetalles=null)]
+00:09:15.351 [INFO ] [               pool-4-thread-1] [     DElectronicoExtractorImpl:111] - Documento modificado DocumentoBean(docu_codigo=null, empr_razonsocial=null, empr_ubigeo=null, empr_nombrecomercial=null, empr_direccion=null, empr_provincia=null, empr_departamento=null, empr_distrito=null, empr_pais=null, empr_nroruc=null, empr_tipodoc=null, clie_numero=00000200, clie_tipodoc=null, clie_nombre=null, docu_fecha=null, docu_tipodocumento=BV, docu_numero=001-0003645   , docu_moneda=null, docu_gravada=null, docu_inafecta=null, docu_exonerada=null, docu_gratuita=null, docu_descuento=null, docu_subtotal=null, docu_total=null, docu_igv=null, tasa_igv=null, docu_isc=null, tasa_isc=null, docu_otrostributos=null, docu_otroscargos=null, docu_percepcion=null, docu_enviaws=null, iddetalle=null, item_moneda=null, item_orden=null, item_unidad=null, item_cantidad=null, item_codproducto=null, item_descripcion=null, item_afectacion=null, item_pventa=null, item_ti_subtotal=null, item_ti_igv=null, rete_rela_tipo_docu=null, rete_rela_nume_docu=null, rete_rela_fech_docu=null, rete_rela_tipo_moneda=null, rete_rela_total_original=null, rete_rela_fecha_pago=null, rete_rela_numero_pago=null, rete_rela_importe_pagado_original=null, rete_rela_tipo_moneda_pago=null, rete_importe_retenido_nacional=null, rete_importe_neto_nacional=null, rete_tipo_moneda_referencia=null, rete_tipo_moneda_objetivo=null, rete_tipo_moneda_tipo_cambio=null, rete_tipo_moneda_fecha=null, item_otros=null, resu_fecha=null, resu_fila=null, resu_tipodoc=null, resu_serie=null, resu_inicio=null, resu_final=null, resu_gravada=null, resu_exonerada=null, resu_inafecta=null, resu_otcargos=null, resu_isc=null, resu_igv=null, resu_ottributos=null, resu_total=null, resu_identificador=null, resu_fechagenera=null, resu_fec=null, resu_numero=null, resu_motivo=null, tasa_otrostributos=null, nota_motivo=null, nota_sustento=null, nota_tipodoc=null, nota_documento=null, cdesu_nroticket=null, rete_regi=null, rete_tasa=null, rete_total_elec=null, rete_total_rete=null, docu_forma_pago=null, docu_observacion=null, clie_direccion=null, docu_vendedor=null, docu_pedido=null, docu_guia_remision=null, clie_orden_compra=null, otrosDetalles=null), rows 1
+00:09:17.439 [INFO ] [               pool-4-thread-1] [              GeneradorJobImpl:29 ] - Extraer boleta

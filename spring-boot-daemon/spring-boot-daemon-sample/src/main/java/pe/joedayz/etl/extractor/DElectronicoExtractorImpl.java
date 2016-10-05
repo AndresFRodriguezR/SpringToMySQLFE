@@ -41,6 +41,8 @@ public class DElectronicoExtractorImpl implements DElectronicoExtractor {
 
 		return null;
 	}
+	
+	
 
 	@Override
 	public DocumentoBean cargarDEBoleta(DocumentoBean pItems) {
@@ -72,7 +74,7 @@ public class DElectronicoExtractorImpl implements DElectronicoExtractor {
 		return null;
 	}
 
-	private static final String SEARCH_DOCUMENTS = "SELECT TOP 1 * \n" +
+	private static final String SEARCH_DOCUMENTS = "SELECT TOP 1 companiasocio as clie_numero, tipodocumento as docu_tipodocumento, numerodocumento as docu_numero \n" +
 				" FROM efactura \n" + 
 				" WHERE  nuevo = 'N' \n" +
 				" order by FechaDocumento ";
@@ -91,7 +93,7 @@ public class DElectronicoExtractorImpl implements DElectronicoExtractor {
         
         if (searchResults.size() > 0) {
       	
-        	//updateStatus(searchResults.get(0));
+        	updateStatus(searchResults.get(0));
             return searchResults.get(0);
         }        
 		return null;

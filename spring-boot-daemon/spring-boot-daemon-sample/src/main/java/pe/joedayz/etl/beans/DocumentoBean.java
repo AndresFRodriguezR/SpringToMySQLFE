@@ -140,5 +140,6 @@ public class DocumentoBean {
     List<OtrosDetalles> otrosDetalles;
 
  
+    
 
 }

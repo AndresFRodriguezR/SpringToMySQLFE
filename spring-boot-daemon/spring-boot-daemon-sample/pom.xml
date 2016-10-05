@@ -10,7 +10,6 @@
 	<artifactId>spring-boot-daemon-sample</artifactId>
 	<packaging>jar</packaging>
 	<name>Spring Boot Daemon :: Sample</name>
-
 	<properties>
 		<dist.dir>${project.build.directory}/dist</dist.dir>
 		<dist.project.id>${project.artifactId}</dist.project.id>
